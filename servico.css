@@ -1,0 +1,146 @@
+.navbar {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 50px 60px;
+background: #1e0b44;
+min-height: 150px;
+}
+
+/* Área do logo */
+.logo {
+display: flex;
+align-items: center;
+gap: 9px;
+height: 80px;
+margin-left: 10px; 
+}
+
+.logo img {
+height: 150px;
+gap: 10px;
+}
+
+.logo-box {
+width: 50px;
+height: 50px;
+border: 2px solid #555;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* Botões do menu */
+.menu {
+display: flex;
+gap: 10px;
+margin-right: 20px;
+}
+
+.menu a {
+padding: 10px 50px;
+background: #a681ea;
+border-radius: 10px;
+border: 1px solid rgb(222, 160, 220);
+text-decoration: none;
+color: #000;
+font-weight: bold;
+box-shadow: 1px 1px 2px #ebe6e6;
+}
+
+
+.Imagem_Sobre{
+border-radius: 10px;
+}
+
+.Nome_site{  
+color: #e6cb7f;
+font-family: "Playwrite NO", cursive;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+}
+
+.menu a:hover{
+background-color: #e1a8e8;
+color: black;
+}
+
+
+.estilo_footer{
+background-color: #1e0b44;
+padding: 30px 20px;
+text-align: center;
+color: white;
+}
+
+.titulos-servicos{
+    display: flex;
+    justify-content: space-between; /* esquerda - centro - direita */
+    width: 100%;
+    padding: 0 200px; /* opcional, só para afastar das bordas */
+}
+
+.titulos-servicos h1 {
+    margin: 0; /* tira margens padrões do h1 */
+}
+
+
+.card_1{
+width: 400px;
+align-items: center;
+justify-content: center;
+margin-left: 60px;
+}
+
+.card_2{
+width: 440px;
+align-items: center;
+justify-content: center;
+margin-left: 100px;
+}
+
+.card_3{
+width: 410px;
+align-items: center;
+justify-content: center;
+margin-left: 80px;
+height: 20px;
+}
+
+
+.card_4{
+width: 400px;
+align-items: center;
+justify-content: center;
+margin-left: 70px;
+}
+
+.card_5{
+width: 410px;
+align-items: center;
+justify-content: center;
+margin-left: 90px;
+}
+
+.card_6{
+width: 460px;
+align-items: center;
+justify-content: center;
+margin-left: 80px;
+}
+
+
+
+.Servico1{
+    background-color: #a681ea;
+    color: black;
+    border-radius: 10px;
+    display:flex;
+    width: 140px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+
+
+

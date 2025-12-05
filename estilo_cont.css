@@ -1,0 +1,186 @@
+.navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 60px;
+        background: #1e0b44;
+        min-height: 150px;
+    }
+
+    /* Área do logo */
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        height: 80px;
+        margin-left: 10px; 
+    }
+
+    .logo img {
+    height: 150px;
+    gap: 10px;
+}
+
+    .logo-box {
+        width: 50px;
+        height: 50px;
+        border: 2px solid #555;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Botões do menu */
+    .menu {
+        display: flex;
+        gap: 10px;
+        margin-right: 20px;
+    }
+
+    .menu a {
+        padding: 10px 50px;
+        background: #a681ea;
+        border-radius: 10px;
+        border: 1px solid rgb(222, 160, 220);
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+        box-shadow: 1px 1px 2px #ebe6e6;
+    }
+
+    .cabecalho{
+        text-align: center;
+        background-color: rgb(181, 154, 213);
+        width: 50%; 
+        margin: 0 auto;
+        padding: 2px 5px;
+        border-radius: 10px;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Imagem_Sobre{
+        border-radius: 10px;
+        
+        
+    }
+
+    .Nome_site{  
+        color: #e6cb7f;
+        font-family: "Playwrite NO", cursive;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+
+    .menu a:hover{
+        background-color: #e1a8e8;
+        color: black;
+    }
+
+    .Titulo_card{
+    padding: 0px 50px;
+    margin-left: 160px;
+    max-width: 90%; 
+    background-color: rgb(181, 154, 213);
+    width: 50%;
+    border-radius: 30px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+
+.Container_do_fundo {
+    background-color: #9575cd;;
+    width: 50%;
+    padding: 50px 0;
+    margin: 20px auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+
+.imagens-topo {
+    display: flex;
+    justify-content: center; 
+    gap: 200px; 
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 50px;    
+    height: 50px;   
+    object-fit: cover;
+    border-radius: 8px; 
+    gap: 30px;
+}
+
+
+.Balao_duvida{
+    text-align: center;
+    background-color: #ede7f6;;
+    width: 70%; 
+    margin: 0 auto;
+    padding: 2px 5px;
+    border-radius: 1px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+     margin-top: -70px;
+     border-radius: 20px;
+}
+
+.Funcionamento{
+    text-align: center;
+    background-color: #ede7f6;
+    width: 40%; /* diminui a largura */
+    margin: 0 auto;
+    padding: 2px 5px;
+    border-radius: 1px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+     margin-top: -10px;
+     border-radius: 10px;
+}
+
+.Estilo_cart {
+  display: flex;
+  align-items: flex-start; 
+  margin-top: 10px;
+  padding: 10px;
+  width: 250px;           
+  margin-right: 490px;
+  min-height: 387px;
+}
+
+.Estilo_cart2{
+display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: -390px;
+  min-height: 387px;
+}
+
+.Estilo_cart3{
+    display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-left: 500px;
+  margin-top: -390px;
+  min-height: 387px;
+}
+
+p{
+    text-align: center;
+    justify-content: center;
+}
+
+.estilo_footer{
+    background-color: #1e0b44;
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+  }
+
+  
